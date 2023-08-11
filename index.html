@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onkeypress="console.log('Key pressed')" onkeyup="console.log('Key up Event')">
+    
+    <button onclick="console.log('Click Event Performed')">Click Event</button>
+    <button oncontextmenu="console.log('Context Menu Event Performed')">Context Event</button>
+    <button ondblclick="console.log('Double Click Event')">Double Click</button>
+    <button onmousedown="console.log('Mouse Down')">Mouse Down</button>
+    <button onmouseleave="console.log('Mouse Leave')">Mouse Leave</button>
+    <button onmouseenter="console.log('Mouse Enter')">Mouse Enter</button>
+    <button onmousemove="console.log('Mouse Move')">Mouse Move</button>
+    <button onmouseout="console.log('Mouse Out')">Mouse Out</button>
+    <button onmouseover="console.log('Mouse Over')">Mouse Over</button>
+    <button onmouseup="console.log('Mouse Up')">Mouse Up</button>
+
+    <button onmousedown="console.log('Mouse Down')" onmouseup="console.log('Mouse Up')">Click Me</button>
+    <script src="app.js"></script>
+</body>
+</html>
